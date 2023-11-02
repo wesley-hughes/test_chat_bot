@@ -10,9 +10,11 @@ This project is an implementation of a chatbot using OpenAI's GPT-3 model and Gr
 
 ## Installation
 1. Install Gradio
+```
 pip install gradio
 
-3. Set up OpenAI
+2. Set up OpenAI
+```
 pip install openai
 
 ## Usage
