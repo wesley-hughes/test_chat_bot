@@ -1,51 +1,27 @@
-```markdown
-# AI Chatbot using OpenAI's GPT-3
 
-This project is a simple AI chatbot that utilizes OpenAI's GPT-3 to generate responses to user inputs. The application is built using Python and the Gradio library for the interface.
+# AI Chatbot with OpenAI's GPT-3 and Gradio
+
+This project is an implementation of a chatbot using OpenAI's GPT-3 model and Gradio for the user interface.
 
 ## Prerequisites
-
-Before you begin, ensure you have met the following requirements:
-
-- Python 3.6 or above
-- OpenAI API key
+- Python 3
+- OpenAI API Key
+- Gradio
 
 ## Installation
+1. Install Gradio
+pip install gradio
 
-1. Clone the repository to your local machine.
-
-```bash
-git clone https://github.com/your_username/your_project.git
-```
-
-2. Navigate to the project directory.
-
-```bash
-cd your_project
-```
-
-3. Install the required dependencies.
-
-```bash
-pip install -r requirements.txt
-```
-
-4. Create an `.env` file in the project directory and add your OpenAI API key.
-
-```env
-openai_apikey=your_api_key
-```
+3. Set up OpenAI
+pip install openai
 
 ## Usage
+1. Clone the repository
+2. Change directory
+3. Set up your OpenAI API key
+export openai_apikey=YOUR_API_KEY
+4. Run the script
+python YOUR_SCRIPT_NAME.py
 
-To run the application, execute the following command in the project directory:
-
-```bash
-python app.py
-```
-
-This will launch a Gradio interface in your default web browser. You can interact with the AI chatbot by typing a message in the textbox and clicking the "Click" button. The AI will then generate a response based on the conversation history.
-
-## Credits
-
-This project was based on a tutorial by Shweta Lodha. You can find the tutorial [here](https://www.youtube.com/watch?app=desktop&v=HmoGhSf1_0o&ab_channel=ShwetaLodha).
+## Tutorial
+For a step-by-step tutorial on how to create this project, you can watch [Shweta Lodha's YouTube tutorial](https://www.youtube.com/watch?app=desktop&v=HmoGhSf1_0o&ab_channel=ShwetaLodha).
